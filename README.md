@@ -1,5 +1,5 @@
-<h1 align="center">Charlotte Covid19 Info</h1>
-<h4 align="center">Site for helping Charlotte find useful local info</h4>
+<h1 align="center">Covid19 Info</h1>
+<h4 align="center">Site for helping find useful local info</h4>
   <br>
   <p align="center">
     <a href="https://forthebadge.com">

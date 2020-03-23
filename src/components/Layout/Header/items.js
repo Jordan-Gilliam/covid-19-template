@@ -2,26 +2,26 @@ export default [
   {
     id: 'home',
     href: '/',
-    label: 'Home',
+    label: 'Home'
   },
   {
     id: 'news',
     href: '/news',
-    label: 'News',
+    label: 'News'
   },
   {
     id: 'data',
     href: '/data',
-    label: 'Data',
+    label: 'Data'
   },
   {
     id: 'food',
     href: '/food',
-    label: 'Food',
+    label: 'Food'
   },
   {
     id: 'emergency',
     href: '/emergency',
-    label: 'Emergency',
+    label: 'Emergency'
   }
 ];

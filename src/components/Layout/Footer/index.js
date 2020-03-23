@@ -4,7 +4,12 @@ import { Anchor, Box, Footer as GrommetFooter } from 'grommet';
 import { Slack, Instagram, Github } from 'grommet-icons';
 
 const Footer = () => (
-  <GrommetFooter align="center" justify="center" background="light-4" pad="large">
+  <GrommetFooter
+    align="center"
+    justify="center"
+    background="light-4"
+    pad="large"
+  >
     <Box direction="row" gap="small">
       <Anchor
         a11yTitle="Share feedback on Github"

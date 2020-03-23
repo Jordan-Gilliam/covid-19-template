@@ -1,5 +1,5 @@
 import React from 'react';
-import { WorldMap } from 'grommet'
+import { WorldMap } from 'grommet';
 
 const Map = () => {
   return (

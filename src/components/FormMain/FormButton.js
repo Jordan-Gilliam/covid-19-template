@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from 'grommet';
 
-
 const FormButton = ({ status }) => {
   return (
     <div>
