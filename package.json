@@ -1,0 +1,42 @@
+{
+  "name": "info",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "precommit": "lint-staged",
+    "lint": "prettier-standard --lint",
+    "format": "prettier-standard --format"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "prettier-standard --changed --lint --format"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "grommet": "^2.11.2",
+    "grommet-controls": "^2.0.4",
+    "grommet-icons": "^4.4.0",
+    "next": "9.3.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-plugin-transform-imports": "^2.0.0",
+    "next-transpile-modules": "^3.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "eslint": "6.8.0",
+    "husky": "4.2.3",
+    "lint-staged": "^10.0.8",
+    "modern-node": "^2.7.0",
+    "prettier-standard": "^16.2.1"
+  }
+}
