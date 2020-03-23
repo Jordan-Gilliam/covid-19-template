@@ -35,6 +35,13 @@
 - Check out Zeit overview: [Guide](https://zeit.co/guides/deploying-nextjs-with-now)
 - How to set up static forms: [Guide](https://medium.com/qualascend/add-a-static-form-to-your-nextjs-app-without-serverside-code-67e10a6ea7b8)
 
+## Configure Environment
+> Once your site is hosted using Zeit
+
+- `npm i -g now` - Install [Now CLI](https://zeit.co/download)
+- `now secrets add static-forms-access-key <secret-value>` - to set your access key.
+- `now secrets add static-forms-email <secret-value>` - to set your form email.
+
 ## Contributing
 
 Thanks for being you:)
