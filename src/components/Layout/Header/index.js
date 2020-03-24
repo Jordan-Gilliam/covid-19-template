@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Anchor,
   Box,
-  Button,
   Header,
   Nav,
   Menu,
@@ -10,15 +9,10 @@ import {
 } from 'grommet';
 import items from './items';
 
-const CollapsableNav = ({ on, toggleCallback }) => (
+const CollapsableNav = ({ children }) => (
   <Header pad="medium">
     <Box direction="row" align="center" gap="small">
-      <Button
-        primary
-        color={on ? 'accent-3' : ''}
-        label={!on ? 'Light' : 'Dark'}
-        onClick={toggleCallback}
-      />
+      {children}
     </Box>
     <ResponsiveContext.Consumer>
       {responsive =>

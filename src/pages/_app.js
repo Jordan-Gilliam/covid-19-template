@@ -1,44 +1,29 @@
-/**
- * Next.js uses the App component to initialize pages.
- * You can override it and control the page initialization.
- * Which allows you to do amazing things like:
- *
- * - Persisting layout between page changes
- * - Keeping state when navigating pages
- * - Custom error handling using componentDidCatch
- * - Inject additional data into pages
- * - Add global CSS
- *
- */
-
-import App from 'next/app';
 import React from 'react';
 import { Grommet } from 'grommet';
-import { grommet, dark } from 'grommet/themes';
-
+import { grommet } from 'grommet/themes';
 import Header from '../components/Layout/Header';
+import Toggle from '../components/Toggle';
 import Footer from '../components/Layout/Footer';
-import useToggle from '../components/hooks/useToggle';
+import {useDarkMode} from '../components/hooks/useDarkMode';
 
-const DarkThemeApp = ({ children }) => {
-  const { on, toggle } = useToggle();
+const MyApp = ({ Component, pageProps }) => {
+  const [theme, toggleTheme, componentMounted] = useDarkMode();
+
+  const themeMode = theme === 'light' ? 'light' : 'dark';
+
+  if (!componentMounted) {
+    return <div />
+  };
+
   return (
-    <Grommet theme={on ? dark : grommet}>
-      <Header on={on} toggleCallback={toggle} />
-      {children}
+    <Grommet theme={grommet} themeMode={themeMode}>
+      <Header>
+        <Toggle theme={theme} toggleTheme={toggleTheme} />
+      </Header>
+      {<Component {...pageProps} />}
       <Footer />
     </Grommet>
   );
 };
 
-export default class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props;
-
-    return (
-      <DarkThemeApp>
-        <Component {...pageProps} />
-      </DarkThemeApp>
-    );
-  }
-}
+export default MyApp;
