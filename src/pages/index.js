@@ -1,6 +1,6 @@
 import { Anchor, Box, Heading, Paragraph } from 'grommet';
-import FormMain from '../components/FormMain';
-import Section from '../components/Layout/Section';
+import FormMain from './FormMain/FormMain';
+import Section from '../_app/Section';
 
 export default () => (
   <Box align="center" margin="large">

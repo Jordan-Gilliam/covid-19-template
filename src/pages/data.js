@@ -1,7 +1,7 @@
 import { Anchor, Box, Paragraph } from 'grommet';
-import DataHeading from '../organisms/DataHeading';
-import CountriesDataTable from '../organisms/CountriesDataTable';
-import StatesDataTable from '../organisms/StatesDataTable';
+import DataHeading from '../data/DataHeading';
+import CountriesDataTable from '../data/CountriesDataTable';
+import StatesDataTable from '../data/StatesDataTable';
 
 export default () => {
   return (

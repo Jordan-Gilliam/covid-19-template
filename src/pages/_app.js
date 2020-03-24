@@ -1,10 +1,10 @@
 import React from 'react';
 import { Grommet } from 'grommet';
 import { grommet } from 'grommet/themes';
-import Header from '../components/Layout/Header';
-import Toggle from '../components/Toggle';
-import Footer from '../components/Layout/Footer';
-import { useDarkMode } from '../hooks/useDarkMode';
+import Header from '../_app/Header';
+import Toggle from '../_app/Toggle';
+import Footer from '../_app/Footer';
+import { useDarkMode } from '../_app/useDarkMode';
 
 const MyApp = ({ Component, pageProps }) => {
   const [theme, toggleTheme, componentMounted] = useDarkMode();

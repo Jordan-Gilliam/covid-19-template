@@ -1,13 +1,33 @@
 import React from 'react';
-import {
-  Anchor,
-  Box,
-  Header,
-  Nav,
-  Menu,
-  ResponsiveContext
-} from 'grommet';
-import items from './items';
+import { Anchor, Box, Header, Nav, Menu, ResponsiveContext } from 'grommet';
+
+const items = [
+  {
+    id: 'home',
+    href: '/',
+    label: 'Home'
+  },
+  {
+    id: 'news',
+    href: '/news',
+    label: 'News'
+  },
+  {
+    id: 'data',
+    href: '/data',
+    label: 'Data'
+  },
+  {
+    id: 'food',
+    href: '/food',
+    label: 'Food'
+  },
+  {
+    id: 'emergency',
+    href: '/emergency',
+    label: 'Emergency'
+  }
+];
 
 const CollapsableNav = ({ children }) => (
   <Header pad="medium">

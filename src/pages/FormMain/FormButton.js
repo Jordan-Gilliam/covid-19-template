@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button } from 'grommet';
+import { Button, Box } from 'grommet';
 
 const FormButton = ({ status }) => {
   return (
-    <div>
+    <Box>
       {
         {
           idle: (
@@ -34,7 +34,7 @@ const FormButton = ({ status }) => {
           )
         }[status]
       }
-    </div>
+    </Box>
   );
 };
 

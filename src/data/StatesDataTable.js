@@ -3,10 +3,9 @@ import { Heading } from 'grommet';
 import { Spinning } from 'grommet-controls';
 import { useQuery } from 'react-query';
 
-import { columns } from './columns';
-import { fetchStates } from '../../data/api';
-import Section from '../../components/Layout/Section';
-import DataTable from '../../components/DataTable';
+import { fetchStates } from './shared/api';
+import Section from '../_app/Section';
+import DataTable from './shared/DataTable';
 
 const StatesDataTable = () => {
   const { status, data, error } = useQuery('all-states-data', fetchStates);
@@ -20,7 +19,7 @@ const StatesDataTable = () => {
         <span>Error: {error.message}</span>
       ) : (
         <DataTable
-        columns={columns}
+        location="state"
         data={data}
         caseTotal={46145}
         deathTotal={582}

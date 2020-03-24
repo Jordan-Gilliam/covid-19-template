@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Text, Box, WorldMap, ResponsiveContext } from 'grommet';
-import Section from '../../components/Layout/Section';
+import Section from '../_app/Section';
 import { useQuery } from 'react-query';
-import { fetchAll } from '../../data/api';
+import { fetchAll } from './shared/api';
 
 const DataHeading = () => {
   const [fadeIn, setFadeIn] = useState(false);
