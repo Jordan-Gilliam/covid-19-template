@@ -14,6 +14,12 @@
 
 ---
 
+<p align="center">
+<img align="center" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/covid-template.png" width=600 alt="covid-19" />
+  </p>
+
+
+
 ## Getting Started
 
 - `git clone https://github.com/Jordan-Gilliam/covid-19-template.git` - clone project.
