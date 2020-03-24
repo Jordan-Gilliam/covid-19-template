@@ -14,7 +14,7 @@
 
 ---
 
-## Getting Started
+## Getting Started Apollo GraphQL version
 
 - `git clone https://github.com/Jordan-Gilliam/covid-19-template.git` - clone project.
 - `cd covid-19-template` - move to info dir.
