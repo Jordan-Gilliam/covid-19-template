@@ -1,0 +1,479 @@
+[
+  {
+    "state": "New York",
+    "cases": 23230,
+    "todayCases": 2355,
+    "deaths": 183,
+    "todayDeaths": 26,
+    "recovered": 22939,
+    "active": 0
+  },
+  {
+    "state": "New Jersey",
+    "cases": 2844,
+    "todayCases": 0,
+    "deaths": 27,
+    "todayDeaths": 0,
+    "recovered": 2817,
+    "active": 0
+  },
+  {
+    "state": "Washington",
+    "cases": 2221,
+    "todayCases": 0,
+    "deaths": 110,
+    "todayDeaths": 0,
+    "recovered": 1987,
+    "active": 0
+  },
+  {
+    "state": "California",
+    "cases": 2162,
+    "todayCases": 29,
+    "deaths": 43,
+    "todayDeaths": 3,
+    "recovered": 2113,
+    "active": 0
+  },
+  {
+    "state": "Michigan",
+    "cases": 1328,
+    "todayCases": 0,
+    "deaths": 15,
+    "todayDeaths": 0,
+    "recovered": 1313,
+    "active": 0
+  },
+  {
+    "state": "Illinois",
+    "cases": 1285,
+    "todayCases": 0,
+    "deaths": 12,
+    "todayDeaths": 0,
+    "recovered": 1271,
+    "active": 0
+  },
+  {
+    "state": "Florida",
+    "cases": 1227,
+    "todayCases": 0,
+    "deaths": 18,
+    "todayDeaths": 0,
+    "recovered": 1209,
+    "active": 0
+  },
+  {
+    "state": "Louisiana",
+    "cases": 1172,
+    "todayCases": 0,
+    "deaths": 35,
+    "todayDeaths": 0,
+    "recovered": 1137,
+    "active": 0
+  },
+  {
+    "state": "Texas",
+    "cases": 806,
+    "todayCases": 0,
+    "deaths": 9,
+    "todayDeaths": 0,
+    "recovered": 786,
+    "active": 0
+  },
+  {
+    "state": "Georgia",
+    "cases": 803,
+    "todayCases": 0,
+    "deaths": 26,
+    "todayDeaths": 0,
+    "recovered": 777,
+    "active": 0
+  },
+  {
+    "state": "Massachusetts",
+    "cases": 777,
+    "todayCases": 0,
+    "deaths": 9,
+    "todayDeaths": 0,
+    "recovered": 767,
+    "active": 0
+  },
+  {
+    "state": "Colorado",
+    "cases": 720,
+    "todayCases": 0,
+    "deaths": 7,
+    "todayDeaths": 0,
+    "recovered": 713,
+    "active": 0
+  },
+  {
+    "state": "Pennsylvania",
+    "cases": 644,
+    "todayCases": 0,
+    "deaths": 6,
+    "todayDeaths": 0,
+    "recovered": 638,
+    "active": 0
+  },
+  {
+    "state": "Tennessee",
+    "cases": 615,
+    "todayCases": 0,
+    "deaths": 2,
+    "todayDeaths": 0,
+    "recovered": 613,
+    "active": 0
+  },
+  {
+    "state": "Ohio",
+    "cases": 442,
+    "todayCases": 0,
+    "deaths": 6,
+    "todayDeaths": 0,
+    "recovered": 436,
+    "active": 0
+  },
+  {
+    "state": "Wisconsin",
+    "cases": 416,
+    "todayCases": 0,
+    "deaths": 5,
+    "todayDeaths": 0,
+    "recovered": 410,
+    "active": 0
+  },
+  {
+    "state": "Connecticut",
+    "cases": 415,
+    "todayCases": 0,
+    "deaths": 10,
+    "todayDeaths": 0,
+    "recovered": 405,
+    "active": 0
+  },
+  {
+    "state": "North Carolina",
+    "cases": 410,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 410,
+    "active": 0
+  },
+  {
+    "state": "South Carolina",
+    "cases": 299,
+    "todayCases": 0,
+    "deaths": 5,
+    "todayDeaths": 0,
+    "recovered": 294,
+    "active": 0
+  },
+  {
+    "state": "Maryland",
+    "cases": 288,
+    "todayCases": 0,
+    "deaths": 3,
+    "todayDeaths": 0,
+    "recovered": 281,
+    "active": 0
+  },
+  {
+    "state": "Indiana",
+    "cases": 259,
+    "todayCases": 0,
+    "deaths": 7,
+    "todayDeaths": 0,
+    "recovered": 252,
+    "active": 0
+  },
+  {
+    "state": "Utah",
+    "cases": 257,
+    "todayCases": 0,
+    "deaths": 1,
+    "todayDeaths": 0,
+    "recovered": 256,
+    "active": 0
+  },
+  {
+    "state": "Virginia",
+    "cases": 254,
+    "todayCases": 0,
+    "deaths": 7,
+    "todayDeaths": 0,
+    "recovered": 246,
+    "active": 0
+  },
+  {
+    "state": "Mississippi",
+    "cases": 249,
+    "todayCases": 0,
+    "deaths": 1,
+    "todayDeaths": 0,
+    "recovered": 248,
+    "active": 0
+  },
+  {
+    "state": "Nevada",
+    "cases": 245,
+    "todayCases": 0,
+    "deaths": 4,
+    "todayDeaths": 0,
+    "recovered": 241,
+    "active": 0
+  },
+  {
+    "state": "Minnesota",
+    "cases": 235,
+    "todayCases": 0,
+    "deaths": 1,
+    "todayDeaths": 0,
+    "recovered": 210,
+    "active": 0
+  },
+  {
+    "state": "Arizona",
+    "cases": 234,
+    "todayCases": 0,
+    "deaths": 2,
+    "todayDeaths": 0,
+    "recovered": 231,
+    "active": 0
+  },
+  {
+    "state": "Arkansas",
+    "cases": 197,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 197,
+    "active": 0
+  },
+  {
+    "state": "Missouri",
+    "cases": 196,
+    "todayCases": 0,
+    "deaths": 5,
+    "todayDeaths": 0,
+    "recovered": 191,
+    "active": 0
+  },
+  {
+    "state": "Alabama",
+    "cases": 196,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 196,
+    "active": 0
+  },
+  {
+    "state": "Oregon",
+    "cases": 191,
+    "todayCases": 0,
+    "deaths": 5,
+    "todayDeaths": 0,
+    "recovered": 186,
+    "active": 0
+  },
+  {
+    "state": "District of Columbia",
+    "cases": 137,
+    "todayCases": 0,
+    "deaths": 2,
+    "todayDeaths": 0,
+    "recovered": 135,
+    "active": 0
+  },
+  {
+    "state": "Kentucky",
+    "cases": 124,
+    "todayCases": 0,
+    "deaths": 4,
+    "todayDeaths": 0,
+    "recovered": 118,
+    "active": 0
+  },
+  {
+    "state": "Maine",
+    "cases": 107,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 104,
+    "active": 0
+  },
+  {
+    "state": "Rhode Island",
+    "cases": 106,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 106,
+    "active": 0
+  },
+  {
+    "state": "Iowa",
+    "cases": 105,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 105,
+    "active": 0
+  },
+  {
+    "state": "New Hampshire",
+    "cases": 101,
+    "todayCases": 0,
+    "deaths": 1,
+    "todayDeaths": 0,
+    "recovered": 100,
+    "active": 0
+  },
+  {
+    "state": "Delaware",
+    "cases": 87,
+    "todayCases": 19,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 87,
+    "active": 0
+  },
+  {
+    "state": "New Mexico",
+    "cases": 83,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 83,
+    "active": 0
+  },
+  {
+    "state": "Kansas",
+    "cases": 82,
+    "todayCases": 0,
+    "deaths": 2,
+    "todayDeaths": 0,
+    "recovered": 80,
+    "active": 0
+  },
+  {
+    "state": "Oklahoma",
+    "cases": 81,
+    "todayCases": 0,
+    "deaths": 2,
+    "todayDeaths": 0,
+    "recovered": 78,
+    "active": 0
+  },
+  {
+    "state": "Hawaii",
+    "cases": 77,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 77,
+    "active": 0
+  },
+  {
+    "state": "Vermont",
+    "cases": 75,
+    "todayCases": 0,
+    "deaths": 5,
+    "todayDeaths": 0,
+    "recovered": 70,
+    "active": 0
+  },
+  {
+    "state": "Nebraska",
+    "cases": 50,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 50,
+    "active": 0
+  },
+  {
+    "state": "Idaho",
+    "cases": 47,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 47,
+    "active": 0
+  },
+  {
+    "state": "Montana",
+    "cases": 45,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 45,
+    "active": 0
+  },
+  {
+    "state": "Alaska",
+    "cases": 36,
+    "todayCases": 4,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 36,
+    "active": 0
+  },
+  {
+    "state": "North Dakota",
+    "cases": 32,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 32,
+    "active": 0
+  },
+  {
+    "state": "South Dakota",
+    "cases": 28,
+    "todayCases": 0,
+    "deaths": 1,
+    "todayDeaths": 0,
+    "recovered": 21,
+    "active": 0
+  },
+  {
+    "state": "Wyoming",
+    "cases": 26,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 26,
+    "active": 0
+  },
+  {
+    "state": "West Virginia",
+    "cases": 20,
+    "todayCases": 4,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 20,
+    "active": 0
+  },
+  {
+    "state": "Diamond Princess Cruise",
+    "cases": 49,
+    "todayCases": 0,
+    "deaths": 0,
+    "todayDeaths": 0,
+    "recovered": 49,
+    "active": 0
+  },
+  {
+    "state": "Grand Princess Cruise",
+    "cases": 30,
+    "todayCases": 0,
+    "deaths": 1,
+    "todayDeaths": 0,
+    "recovered": 29,
+    "active": 0
+  }
+]

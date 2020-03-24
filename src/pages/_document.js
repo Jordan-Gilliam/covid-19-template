@@ -49,6 +49,7 @@ export default class MyDocument extends Document {
             padding: 0
           }}
         >
+          <script src="noflash.js" />
           <Main />
           <NextScript />
         </body>
