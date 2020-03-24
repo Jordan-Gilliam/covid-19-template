@@ -3,7 +3,7 @@
   <br>
   <p align="center">
     <a href="https://forthebadge.com">
-    <img src="https://img.shields.io/badge/COVID%20--%3E-DEVS-blue?style=for-the-badge" alt="For the badge">
+    <img src="https://img.shields.io/badge/HACK%20--%3E-Covid-red?style=for-the-badge" alt="For the badge">
   </p>
 
 <p align="center">
@@ -14,6 +14,12 @@
 
 ---
 
+<p align="center">
+<img align="center" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/covid-template.png" width=600 alt="covid-19" />
+  </p>
+
+
+
 ## Getting Started
 
 - `git clone https://github.com/Jordan-Gilliam/covid-19-template.git` - clone project.
@@ -21,10 +27,14 @@
 - `npm i` - install deps.
 - `npm run dev` - start dev env.
 
+> Prefer GraphQL ? checkout the ```with-appolo-graphql``` branch [The GRAPHQL endpoint ⚠️ WIP]
+
 ## Features
 
+- [novelcovid](https://github.com/novelcovid/api)  -  Free Covid-19 Api
 - [Next JS](https://nextjs.org/)  -  The React Framework
 - [grommet](https://github.com/grommet/grommet)  -  Focus on the essential experience
+- [react-query](https://github.com/tannerlinsley/react-query)  -  Hooks for fetching, caching and updating in React
 - [grommet-controls](https://github.com/atanasster/grommet-controls)  -  A pack of extensions for Grommet 2
 - [Static Forms](https://www.staticforms.xyz/)  -  Simple HTML form for your website
 - [styled-components](https://www.styled-components.com/)  -  CSS in JS elegance
@@ -48,6 +58,28 @@
 
 Thanks for being you:)
 [contribution guidelines](./CONTRIBUTING.md) to get started.
+
+## Contributors ✨
+
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Jordan-Gilliam"><img src="https://avatars0.githubusercontent.com/u/25993686?v=4" width="100px;" alt=""/><br /><sub><b>Nolansym</b></sub></a><br /><a href="https://github.com/Jordan-Gilliam/ceviche/commits?author=Jordan-Gilliam" title="Code">💻</a> <a href="https://github.com/Jordan-Gilliam/ceviche/commits?author=Jordan-Gilliam" title="Tests">⚠️</a> <a href="https://github.com/Jordan-Gilliam/ceviche/commits?author=Jordan-Gilliam" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 
 ## License
 
