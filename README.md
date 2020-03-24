@@ -3,7 +3,7 @@
   <br>
   <p align="center">
     <a href="https://forthebadge.com">
-    <img src="https://img.shields.io/badge/COVID%20--%3E-DEVS-blue?style=for-the-badge" alt="For the badge">
+    <img src="https://img.shields.io/badge/HACK%20--%3E-Covid-red?style=for-the-badge" alt="For the badge">
   </p>
 
 <p align="center">
