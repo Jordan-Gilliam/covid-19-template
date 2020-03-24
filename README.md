@@ -27,6 +27,8 @@
 - `npm i` - install deps.
 - `npm run dev` - start dev env.
 
+> Prefer GraphQL ? checkout the ```with-appolo-graphql``` branch [The GRAPHQL endpoint ⚠️ WIP]
+
 ## Features
 
 - [novelcovid](https://github.com/novelcovid/api)  -  Free Covid-19 Api
