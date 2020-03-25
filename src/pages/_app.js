@@ -1,9 +1,8 @@
 import React from 'react';
 import { Grommet } from 'grommet';
 import { grommet } from 'grommet/themes';
-import { hpe } from 'grommet-theme-hpe';
 
-import { isLightContext } from '../_app/IsLightContext';
+import { isLightContext } from '../_app/isLightContext';
 import { Nav } from '../_app/Nav';
 import { Toggle } from '../_app/Toggle';
 import { Footer } from '../_app/Footer';

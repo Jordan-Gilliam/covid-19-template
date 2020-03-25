@@ -1,7 +1,7 @@
 import React, { Fragment, useContext } from 'react';
 import styled from 'styled-components';
 import { Box, Heading, Paragraph } from 'grommet';
-import { isLightContext } from '../../_app/IsLightContext';
+import { isLightContext } from '../../_app/isLightContext';
 
 export const StyledHeading = styled(Heading)`
   font-weight: 200;
