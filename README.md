@@ -29,6 +29,18 @@
 
 > Prefer GraphQL ? checkout the ```with-appolo-graphql``` branch [The GRAPHQL endpoint ⚠️ WIP]
 
+## Stack
+
+- [novelcovid](https://github.com/novelcovid/api)  -  Free Covid-19 Api
+- [Next JS](https://nextjs.org/)  -  The React Framework
+- [grommet](https://github.com/grommet/grommet)  -  Focus on the essential experience
+- [react-query](https://github.com/tannerlinsley/react-query)  -  Hooks for fetching, caching and updating in React
+- [grommet-controls](https://github.com/atanasster/grommet-controls)  -  A pack of extensions for Grommet 2
+- [Static Forms](https://www.staticforms.xyz/)  -  Simple HTML form for your website
+- [styled-components](https://www.styled-components.com/)  -  CSS in JS elegance
+- [prettier-standard](https://github.com/sheerun/prettier-standard)  -  Formats with Prettier and lints with ESLint
+- [Babel](https://babeljs.io/)  -  Compiles next-gen JavaScript
+
 
 ## Features
 
@@ -59,18 +71,6 @@
 ### News
 
 > TODO -> build news scraper
-
-## Stack
-
-- [novelcovid](https://github.com/novelcovid/api)  -  Free Covid-19 Api
-- [Next JS](https://nextjs.org/)  -  The React Framework
-- [grommet](https://github.com/grommet/grommet)  -  Focus on the essential experience
-- [react-query](https://github.com/tannerlinsley/react-query)  -  Hooks for fetching, caching and updating in React
-- [grommet-controls](https://github.com/atanasster/grommet-controls)  -  A pack of extensions for Grommet 2
-- [Static Forms](https://www.staticforms.xyz/)  -  Simple HTML form for your website
-- [styled-components](https://www.styled-components.com/)  -  CSS in JS elegance
-- [prettier-standard](https://github.com/sheerun/prettier-standard)  -  Formats with Prettier and lints with ESLint
-- [Babel](https://babeljs.io/)  -  Compiles next-gen JavaScript
 
 ## Host on Zeit
 
