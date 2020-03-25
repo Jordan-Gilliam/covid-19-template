@@ -1,5 +1,12 @@
 import React from 'react';
-import { Anchor, Box, Header, Nav, Menu, ResponsiveContext } from 'grommet';
+import {
+  Anchor,
+  Box,
+  Header,
+  Nav as GrommetNav,
+  Menu,
+  ResponsiveContext
+} from 'grommet';
 
 const items = [
   {
@@ -23,15 +30,21 @@ const items = [
     label: 'Food'
   },
   {
-    id: 'emergency',
-    href: '/emergency',
-    label: 'Emergency'
+    id: 'learn',
+    href: '/learn',
+    label: 'Learn'
   }
 ];
 
-const CollapsableNav = ({ children }) => (
+const Nav = ({ children }) => (
   <Header pad="medium">
-    <Box direction="row" align="center" gap="small">
+    <Box
+      direction="row"
+      justify="between"
+      alignSelf="center"
+      gap="medium"
+      pad={{ top: 'medium', horizontal: 'large' }}
+    >
       {children}
     </Box>
     <ResponsiveContext.Consumer>
@@ -39,16 +52,20 @@ const CollapsableNav = ({ children }) => (
         responsive === 'small' ? (
           <Menu label="Click me" items={items} />
         ) : (
-          <Nav direction="row">
+          <GrommetNav
+            direction="row"
+            pad={{ top: 'large', horizontal: 'xlarge' }}
+          >
             <Anchor href="/" label="home" />
-            <Anchor href="/news" label="news" />
             <Anchor href="/data" label="data" />
             <Anchor href="/food" label="food" />
-            <Anchor href="/emergency" label="emergency" />
-          </Nav>
+            <Anchor href="/learn" label="learn" />
+            <Anchor href="/news" label="news" />
+          </GrommetNav>
         )
       }
     </ResponsiveContext.Consumer>
   </Header>
 );
-export default CollapsableNav;
+
+export { Nav };

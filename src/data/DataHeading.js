@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Text, Box, WorldMap, ResponsiveContext } from 'grommet';
-import Section from '../_app/Section';
+import {Section} from '../_app/Section';
 import { useQuery } from 'react-query';
 import { fetchAll } from './shared/api';
 

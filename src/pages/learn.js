@@ -1,10 +1,9 @@
 import { Box, Heading } from 'grommet';
 import { Spinning } from 'grommet-controls';
 
-
 export default () => (
   <Box align="center" margin="large">
-    <Heading>Emergency</Heading>
+    <Heading>Learn</Heading>
     <Heading level={2}>⚠Work in Progress⚠</Heading>
     <Spinning kind='circle' />
     <Spinning kind='pulse' />

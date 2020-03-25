@@ -19,14 +19,17 @@
     "*": "prettier-standard --changed --lint --format"
   },
   "dependencies": {
+    "add": "^2.0.6",
     "grommet": "^2.11.2",
     "grommet-controls": "^2.0.4",
     "grommet-icons": "^4.4.0",
+    "grommet-theme-hpe": "^1.0.2",
     "isomorphic-unfetch": "^3.0.0",
     "next": "9.3.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-query": "^1.0.35",
+    "react-timeago": "^4.4.0",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {

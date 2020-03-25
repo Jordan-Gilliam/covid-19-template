@@ -4,7 +4,7 @@ import { Spinning } from 'grommet-controls';
 import { useQuery } from 'react-query';
 
 import { fetchCountries } from './shared/api';
-import Section from '../_app/Section';
+import {Section} from '../_app/Section';
 import DataTable from './shared/DataTable';
 
 const CountriesDataTable = () => {

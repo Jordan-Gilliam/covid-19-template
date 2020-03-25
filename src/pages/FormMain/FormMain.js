@@ -105,7 +105,13 @@ const FormMain = () => {
           name="phone"
           label="Phone"
         />
-        <TextAreaField rows="6" label="I need Help with" name="message" />
+        <TextAreaField
+          color="grey"
+          rows="6"
+          label="I need help with"
+          name="message"
+          placeholder="Leave us a message :) This helps us better understand how to best help"
+        />
         <FormButton status={formStatus} />
       </Box>
     </Form>
