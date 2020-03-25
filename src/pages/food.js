@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
-import styled, { css } from 'styled-components';
-import { Box, Grid, Button, ResponsiveContext } from 'grommet';
+import { Box, Grid, ResponsiveContext } from 'grommet';
 import { data } from './Cards/data';
 import Card from './Cards/Card';
 import CardContent from './Cards/CardContent';
