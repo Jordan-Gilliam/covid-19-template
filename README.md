@@ -1,4 +1,4 @@
-<h1 align="center">Covid19 Info</h1>
+<h1 align="center">Covid-19 Info Template</h1>
 <h4 align="center">Template for local info</h4>
   <br>
   <p align="center">
