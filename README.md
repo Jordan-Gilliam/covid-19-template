@@ -15,7 +15,7 @@
 ---
 
 <p align="center">
-<img align="center" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/covid-template.png" width=600 alt="covid-19" />
+<img align="center" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/covid-dark-data.png" width=600 alt="covid-19" />
   </p>
 
 
@@ -29,7 +29,38 @@
 
 > Prefer GraphQL ? checkout the ```with-appolo-graphql``` branch [The GRAPHQL endpoint ⚠️ WIP]
 
+
 ## Features
+
+### Home
+
+<p align="center">
+<img align="center" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/covid-light.png" width=600 alt="covid-19" />
+  </p>
+  
+### Data
+
+<p align="center">
+<img align="center" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/covid-dark-data.png" width=600 alt="covid-19" />
+  </p>
+  
+### Food
+
+> gather local openings and display here
+
+<p align="center">
+<img align="center" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/covid-light-food.png" width=600 alt="covid-19" />
+  </p>
+  
+### Learn
+
+> TODO -> build ui
+
+### News
+
+> TODO -> build news scraper
+
+## Stack
 
 - [novelcovid](https://github.com/novelcovid/api)  -  Free Covid-19 Api
 - [Next JS](https://nextjs.org/)  -  The React Framework
