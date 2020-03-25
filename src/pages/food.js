@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Box, Grid, ResponsiveContext } from 'grommet';
-import { data } from './Cards/data';
+import data from './Cards/data';
 import Card from './Cards/Card';
 import CardContent from './Cards/CardContent';
 import CardDescription from './Cards/CardDescription';
