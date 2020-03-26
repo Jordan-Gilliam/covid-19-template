@@ -1,7 +1,7 @@
 import { Anchor, Box, Paragraph } from 'grommet';
 import FormMain from '../organisms/Forms/FormMain';
 import MainHeading from '../organisms/Forms/MainHeading'
-import Section from '../_app/Section';
+import Section from '../shared/Section';
 
 export default () => (
   <Box align="center" margin="large">

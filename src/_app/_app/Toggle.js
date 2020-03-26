@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'grommet';
-import Logo from './Logo';
+import Logo from './Toggle/Logo';
 
 const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === 'light';

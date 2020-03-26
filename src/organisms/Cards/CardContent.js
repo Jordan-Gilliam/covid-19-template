@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Box, Heading, Text } from 'grommet';
-import isLightContext from '../../_app/isLightContext';
+import isLightContext from '../../shared/isLightContext';
 
 const CardContent = ({ name, category, hours, children }) => {
   const { isLight } = useContext(isLightContext);
