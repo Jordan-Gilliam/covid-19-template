@@ -30,4 +30,4 @@ const Logo = ({ isLight }) => {
   );
 };
 
-export { Logo };
+export default Logo;

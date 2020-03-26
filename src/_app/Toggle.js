@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'grommet';
-import { Logo } from './Logo';
+import Logo from './Logo';
 
 const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === 'light';
@@ -11,4 +11,4 @@ const Toggle = ({ theme, toggleTheme }) => {
   );
 };
 
-export {Toggle};
+export default Toggle;

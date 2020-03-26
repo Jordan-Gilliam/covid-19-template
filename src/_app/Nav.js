@@ -68,4 +68,4 @@ const Nav = ({ children }) => (
   </Header>
 );
 
-export { Nav };
+export default Nav;

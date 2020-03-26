@@ -2,11 +2,11 @@ import React from 'react';
 import { Grommet } from 'grommet';
 import { grommet } from 'grommet/themes';
 
-import { isLightContext } from '../_app/isLightContext';
-import { Nav } from '../_app/Nav';
-import { Toggle } from '../_app/Toggle';
-import { Footer } from '../_app/Footer';
-import { useDarkMode } from '../_app/useDarkMode';
+import isLightContext from '../_app/isLightContext';
+import Nav from '../_app/Nav';
+import Toggle from '../_app/Toggle';
+import Footer from '../_app/Footer';
+import useDarkMode from '../_app/useDarkMode';
 
 const MyApp = ({ Component, pageProps }) => {
   const [theme, toggleTheme, componentMounted] = useDarkMode();

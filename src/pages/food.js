@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { Box, Grid, ResponsiveContext } from 'grommet';
-import data from './Cards/data';
-import Card from './Cards/Card';
-import CardContent from './Cards/CardContent';
-import CardDescription from './Cards/CardDescription';
+import data from '../__mocks__/business-info-mock-data'
+import Card from '../organisms/Cards/Card';
+import CardContent from '../organisms/Cards/CardContent';
+import CardDescription from '../organisms/Cards/CardDescription';
 
 export default () => (
   <Fragment>

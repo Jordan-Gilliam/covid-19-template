@@ -25,4 +25,4 @@ const Footer = () => (
   </GrommetFooter>
 );
 
-export { Footer };
+export default Footer;

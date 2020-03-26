@@ -17,4 +17,4 @@ const Tile = ({ children, action, summary, ...rest }) => (
   </Box>
 );
 
-export { Tile };
+export default Tile;

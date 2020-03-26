@@ -10,4 +10,4 @@ const Section = ({ children, name, elbowRoom = 'medium' }) => (
   </Box>
 );
 
-export { Section };
+export default Section;
